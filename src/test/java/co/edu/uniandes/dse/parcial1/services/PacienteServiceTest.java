@@ -36,7 +36,7 @@ public class PacienteServiceTest {
     @Autowired
     private TestEntityManager entityManager;
 
-    private PodamFactory factory = new PodamFactoryImp();
+    private PodamFactory factory = new PodamFactoryImpl();
 
     private List<PacienteEntity> pacienteList = new ArrayList<>();
 
